@@ -32,7 +32,7 @@ public class RequestHeaderController {
         log.info("headerMap={}", headerMap);
         log.info("header host={}", host);
         log.info("myCookie={}", cookie);
-        
+
         return "ok";
 
     }
